@@ -75,3 +75,19 @@
   font-size: 22px;
   color: #00bfff;
 }
+@media screen and (max-width: 768px) {
+  .about {
+    flex-direction: column;
+    padding: 50px 20px;
+  }
+
+  .about-left,
+  .about-right {
+    width: 100%;
+  }
+
+  .about h2 {
+    font-size: 40px;
+  }
+  
+}

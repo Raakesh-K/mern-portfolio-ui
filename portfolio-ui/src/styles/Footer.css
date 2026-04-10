@@ -54,3 +54,17 @@
   color: var(--subtext-color);
   font-size: 14px;
 }
+@media screen and (max-width: 768px) {
+  .footer {
+    padding: 30px 20px;
+  }
+
+  .footer-top {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .footer h2 {
+    font-size: 24px;
+  }
+}
