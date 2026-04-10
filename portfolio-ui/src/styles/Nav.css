@@ -41,3 +41,21 @@ a {
   text-decoration: none;
   color: inherit;
 }
+@media (max-width: 768px) {
+  .navbar {
+    padding: 20px;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .navbar ul {
+    gap: 18px;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .navbar li {
+    font-size: 14px;
+  }
+}

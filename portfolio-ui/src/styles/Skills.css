@@ -45,3 +45,13 @@
   font-size: 38px;
   color: var(--accent-color);
 }
+@media (max-width: 768px) {
+  .skills-grid {
+    justify-content: center;
+  }
+
+  .skill-card {
+    width: 130px;
+    height: 120px;
+  }
+}
