@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap");
+
+:root {
+  /* 🌙 Dark Theme */
+  --bg-color: #020b18;
+  --section-bg: #031427;
+  --card-bg: rgba(10, 20, 35, 0.92);
+
+  --text-color: #ffffff;
+  --heading-color: #ffffff;
+  --subtext-color: #c4d2df;
+
+  --accent-color: #00bfff;
+  --border-color: rgba(0, 191, 255, 0.15);
+  --shadow-color: rgba(0, 191, 255, 0.18);
+  --nav-bg: rgba(2, 11, 24, 0.9);
+  --button-text: #ffffff;
+}
+
+body.dark-theme {
+  /* ☀️ Warm Light Theme */
+  --bg-color: #efb074;
+  --section-bg: #f2be8d;
+  --card-bg: rgba(255, 255, 255, 0.35);
+
+  /* ✅ stronger readable colors */
+  --text-color: #0b1f33;
+  --heading-color: #081826;
+  --subtext-color: #334155;
+
+  --accent-color: #00bfff;
+  --border-color: rgba(0, 191, 255, 0.25);
+  --shadow-color: rgba(0, 191, 255, 0.18);
+  --nav-bg: rgba(255, 248, 240, 0.9);
+  --button-text: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background: var(--bg-color);
+  color: var(--text-color);
+  transition: all 0.35s ease;
+}
+
+h1,
+h2,
+h3,
+h4,
+.logo,
+.navbar li {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+p,
+span,
+button,
+input,
+textarea,
+a {
+  font-family: "Inter", sans-serif;
+}
+
+.app {
+  background: var(--bg-color);
+}
