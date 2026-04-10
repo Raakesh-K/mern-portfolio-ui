@@ -83,20 +83,3 @@
   margin-bottom: 10px;
   line-height: 1.6;
 }
-@media screen {
-  .experience {
-    padding: 50px 20px;
-  }
-
-  .timeline {
-    margin-left: 0;
-    padding-left: 20px;
-    border-left: none;
-  }
-
-  .timeline-card::before {
-    left: -30px;
-    top: 25px;
-  }
-  
-}

@@ -45,14 +45,3 @@
   font-size: 38px;
   color: var(--accent-color);
 }
-@media screen {
-  .skills {
-    padding: 50px 20px;
-  }
-
-  .skills-grid {
-    justify-content: center;
-  }
-  
-  
-}

@@ -51,13 +51,4 @@
   border-radius: 12px;
   font-size: 14px;
 }
-@media screen {
-  .education {
-    padding: 50px 20px;
-  }
 
-  .edu-grid {
-    grid-template-columns: 1fr;
-  }
-  
-}
