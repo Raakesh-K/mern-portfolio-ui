@@ -1,5 +1,5 @@
 import "../styles/Hero.css";
-import profile from "../assets/profile-pic.jpg";
+import profile from "../assets/profile.jpg";
 
 
 function Hero() {
